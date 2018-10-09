@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href="home.css" type="text/css">
+<style>
+.mySlides {display:none;}
+</style>
+<title>website</title>
+<body bgcolor="black">
+
+<div id="nav">
+<br>
+<img src="music1.png" width="50px" height="50px" width="50px" title="Music&Lyrics"><br><br><br>
+<li><a href="home.htm"><img src="home.png" width="50px" height="70px"title="Home"></li><br></a>
+<li><a href="ar.html">&nbsp;&nbsp;&nbsp;&nbsp;<img src="artist.png" width="20px" height="40px" title="Artist"></a></li><br>
+
+</div>
+<div id="section">
+<h1 align="left">Home</h1><hr>
+ <img class="mySlides" src="pf.jpg" style="width:100%">
+  <img class="mySlides" src="mu1.jpg" style="width:100%">
+  <img class="mySlides" src="mu3.jpg" style="width:100%">
+
+
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div id="footer">
+Copyright Music&Lyrics.com
+</div>
+
+</body>
+<head>
+</html>
+
+

@@ -1,0 +1,55 @@
+li{list-style-type:none;}
+li:hover{
+background-color:#595959}
+a:link{color:white;text-decoration:none}
+a:visited{color:white;text-decoration:none}
+a:active{color:white;text-decoration:none}
+table {
+color:white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, tr{
+    border: 0px ;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+color: black;
+border: 0px ;
+    text-align: left;
+    padding: 8px;
+    background-color: white;
+}
+a:hover{
+background-color:#595959}
+a:link{color:white;text-decoration:none}
+a:visited{color:white;text-decoration:none}
+a:active{color:white;text-decoration:none}
+h3{font-family:"Arial";font-color:"white";font-size:15px }
+#nav
+{color:white;
+
+line-height:30px;
+background-color:#262626;
+height:100%;
+width:5%;
+float:left;
+padding:5px;
+}
+#section
+{
+background-image: url("wish.jpg");
+font-family:"Arial";
+color:white;
+height:100%;
+background-color:black;
+width:92%;
+float:left;
+padding:10px;
+}
+
+
